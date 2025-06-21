@@ -1,5 +1,6 @@
 ; NES program to display Japanese text "テストナカシマ"
 ; Assemble with ASM6 to create a .nes file
+INCLUDE "nes.inc"
 
         .inesprg 1      ; 16KB PRG
         .ineschr 1      ; 8KB CHR
